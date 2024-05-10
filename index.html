@@ -3,10 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini-Project-2 </title>
+    <title>Mini-Project-2 BMI Calculator</title>
     <link rel="stylesheet" href="/Mini-Project-2/style.css">
 </head>
 <body>
+    <nav>
+        <a href="/Mini-Project-2/" aria-current="page">BMI Project</a>
+        <a target="_blank" href="/https://github.com/kunalkpatil/" >My Github</a>
+    </nav>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <form>
+            <p><label>Hight in CM: </label><input type="text"  id="height"></p>
+            <p><label >Weight in CM: </label><input type="text" id="weight"></p>
+            <button>Calculate</button>
+            <div id="results"></div>
+            <div id=" weight-guide">
+                <h3>BMI weight guide</h3>
+                <p>Under weight = Less than 18.6</p>
+                <p>Normal weight = 18.6 to 24.9</p>
+                <p>Overweight = above 24.9</p>
+            </div>
+        </form>
+    </div>
+
     
     <script src="/Mini-Project-2/script.js"></script>
 </body>
